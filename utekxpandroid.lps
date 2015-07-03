@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="armtest"/>
+    <Units Count="56">
+      <Unit0>
+        <Filename Value="utekxpandroid.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="46"/>
+        <CursorPos X="18" Y="80"/>
+        <UsageCount Value="275"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="utekmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="utekmain"/>
+        <TopLine Value="519"/>
+        <CursorPos X="36" Y="536"/>
+        <UsageCount Value="275"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="RUTINS.PAS"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RUTINS"/>
+        <EditorIndex Value="15"/>
+        <UsageCount Value="275"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fakedxdraw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FakeDXDraw"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="29" Y="25"/>
+        <UsageCount Value="275"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="assethelper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="assethelper"/>
+        <EditorIndex Value="19"/>
+        <TopLine Value="23"/>
+        <CursorPos X="11" Y="45"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="androidassethelper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="androidassethelper"/>
+        <EditorIndex Value="17"/>
+        <TopLine Value="16"/>
+        <CursorPos X="16" Y="51"/>
+        <UsageCount Value="259"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="normalassethelper.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="normalassethelper"/>
+        <EditorIndex Value="18"/>
+        <TopLine Value="72"/>
+        <CursorPos Y="107"/>
+        <UsageCount Value="259"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="bitmap_control.pas"/>
+        <UnitName Value="bitmap_control"/>
+        <EditorIndex Value="23"/>
+        <CursorPos X="25" Y="7"/>
+        <UsageCount Value="249"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Bass.pas"/>
+        <UnitName Value="BASS"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="9" Y="11"/>
+        <UsageCount Value="137"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="UTEK.PAS"/>
+        <UnitName Value="UTEK"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="21"/>
+        <CursorPos X="45" Y="25"/>
+        <UsageCount Value="137"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\fpc\2.7.1\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <TopLine Value="84"/>
+        <CursorPos X="35" Y="102"/>
+        <UsageCount Value="59"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\fpc\2.7.1\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="699"/>
+        <CursorPos X="14" Y="719"/>
+        <UsageCount Value="96"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\progs\laztoapk\downloads\laz4android\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="25"/>
+        <TopLine Value="451"/>
+        <CursorPos X="19" Y="484"/>
+        <UsageCount Value="117"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\lcltype.pp"/>
+        <TopLine Value="118"/>
+        <UsageCount Value="97"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\fpc\2.7.1\source\rtl\unix\cthreads.pp"/>
+        <TopLine Value="46"/>
+        <CursorPos X="49" Y="83"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\forms.pp"/>
+        <TopLine Value="573"/>
+        <CursorPos X="15" Y="592"/>
+        <UsageCount Value="2"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\progs\laztoapk\downloads\laz4android\lcl\interfaces\customdrawn\android\asset_manager.pas"/>
+        <UnitName Value="asset_manager"/>
+        <EditorIndex Value="22"/>
+        <CursorPos X="19" Y="16"/>
+        <UsageCount Value="100"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\interfaces\customdrawn\android\log.pas"/>
+        <CursorPos X="13"/>
+        <UsageCount Value="76"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\include\canvas.inc"/>
+        <TopLine Value="1552"/>
+        <CursorPos X="76" Y="1576"/>
+        <UsageCount Value="0"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\fpc\2.7.1\source\rtl\objpas\sysutils\datih.inc"/>
+        <UsageCount Value="0"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\include\intfbaselcl.inc"/>
+        <TopLine Value="336"/>
+        <CursorPos X="40" Y="347"/>
+        <UsageCount Value="0"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\lazcanvas.pas"/>
+        <TopLine Value="43"/>
+        <CursorPos X="27" Y="64"/>
+        <UsageCount Value="0"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\fpc\2.7.1\source\packages\fcl-image\src\fpimage.pp"/>
+        <TopLine Value="237"/>
+        <CursorPos X="12" Y="272"/>
+        <UsageCount Value="0"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\fpc\2.7.1\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <TopLine Value="335"/>
+        <CursorPos X="56" Y="353"/>
+        <UsageCount Value="0"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\interfaces\customdrawn\customdrawnwinapih.inc"/>
+        <TopLine Value="201"/>
+        <CursorPos X="10" Y="224"/>
+        <UsageCount Value="0"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="c:\progs\laztoapk\downloads\laz4android\lcl\interfaces\customdrawn\customdrawnwinapi_android.inc"/>
+        <TopLine Value="6442"/>
+        <CursorPos X="76" Y="6482"/>
+        <UsageCount Value="0"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="C:\progs\laztoapk\downloads\laz4android\packager\registration\lazaruspackageintf.pas"/>
+        <UnitName Value="LazarusPackageIntf"/>
+        <EditorIndex Value="24"/>
+        <TopLine Value="60"/>
+        <CursorPos Y="103"/>
+        <UsageCount Value="108"/>
+        <Loaded Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\interfaces\customdrawn\customdrawnobject_android.inc"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="1409"/>
+        <CursorPos X="23" Y="1424"/>
+        <UsageCount Value="108"/>
+        <Loaded Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\interfaces\customdrawn\customdrawnwinapi_android.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2752"/>
+        <CursorPos X="3" Y="2768"/>
+        <UsageCount Value="52"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\castle_game_engine\src\net\castledownload.pas"/>
+        <UnitName Value="CastleDownload"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="87"/>
+        <CursorPos X="51" Y="98"/>
+        <UsageCount Value="108"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\castle_game_engine\src\window\castlewindow.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2511"/>
+        <CursorPos X="25" Y="2533"/>
+        <UsageCount Value="3"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\lcltype.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1257"/>
+        <CursorPos X="13" Y="1298"/>
+        <UsageCount Value="2"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\progs\laztoapk\downloads\fpc-trunk\rtl\win\wininc\struct.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1458"/>
+        <CursorPos X="6" Y="1480"/>
+        <UsageCount Value="2"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\castle_game_engine\src\ui\castleuicontrols.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1361"/>
+        <CursorPos Y="1383"/>
+        <UsageCount Value="3"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\castle_game_engine\src\base\castlevectors.pas"/>
+        <UnitName Value="CastleVectors"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="231"/>
+        <CursorPos X="3" Y="252"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\castle_game_engine\src\images\castleimages.pas"/>
+        <UnitName Value="CastleImages"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="837"/>
+        <CursorPos X="15" Y="860"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\castle_game_engine\src\ui\opengl\castlecontrols.pas"/>
+        <UnitName Value="CastleControls"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1334"/>
+        <CursorPos X="43" Y="1350"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="C:\progs\laztoapk\downloads\fpc-trunk\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="35" Y="109"/>
+        <UsageCount Value="0"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\castle_game_engine\src\ui\castlekeysmouse.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="460"/>
+        <CursorPos X="5" Y="481"/>
+        <UsageCount Value="1"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\include\winapih.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="291"/>
+        <CursorPos X="10" Y="315"/>
+        <UsageCount Value="1"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="16"/>
+        <TopLine Value="1522"/>
+        <CursorPos X="14" Y="1542"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\castle_game_engine\src\x3d\opengl\castlescenemanager.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1323"/>
+        <CursorPos Y="1345"/>
+        <UsageCount Value="0"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\castle_game_engine\src\ui\castlecameras.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4577"/>
+        <CursorPos Y="4600"/>
+        <UsageCount Value="0"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\castle_game_engine\src\window\castlewindow_android.inc"/>
+        <EditorIndex Value="11"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\interfaces\gtk2\gtk2cellrenderer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="45" Y="32"/>
+        <UsageCount Value="2"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\dbgrids.pas"/>
+        <UnitName Value="DBGrids"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="3846"/>
+        <CursorPos X="7" Y="3883"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="C:\progs\laztoapk\downloads\lazarus-trunk\lcl\graphics.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1941"/>
+        <CursorPos X="10" Y="1965"/>
+        <UsageCount Value="0"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="C:\progs\laztoapk\downloads\fpc-trunk\packages\gtk2\src\gtk+\gtk\gtk2.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="118"/>
+        <CursorPos X="87" Y="134"/>
+        <UsageCount Value="0"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\castle_game_engine\tools\castle-engine.lpr"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="49" Y="12"/>
+        <UsageCount Value="0"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidconfiguration.pas"/>
+        <UnitName Value="CastleAndroidConfiguration"/>
+        <EditorIndex Value="12"/>
+        <CursorPos X="26" Y="29"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <UnitName Value="CastleAndroidNativeAppGlue"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="872"/>
+        <CursorPos X="48" Y="889"/>
+        <UsageCount Value="56"/>
+        <Loaded Value="True"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidlog.pas"/>
+        <UnitName Value="CastleAndroidLog"/>
+        <EditorIndex Value="20"/>
+        <CursorPos X="11" Y="16"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\castle_game_engine\src\base\castlelog.pas"/>
+        <UnitName Value="CastleLog"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="11" Y="41"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeactivity.pas"/>
+        <UnitName Value="CastleAndroidNativeActivity"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="171"/>
+        <CursorPos Y="219"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="VEZMI.PAS"/>
+        <UnitName Value="VEZMI"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="7"/>
+        <UsageCount Value="8"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="PREZRI.PAS"/>
+        <UnitName Value="PREZRI"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+      </Unit55>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="UTEK.PAS"/>
+        <Caret Line="335" Column="48" TopLine="327"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fakedxdraw.pas"/>
+        <Caret Line="51" TopLine="27"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="605" Column="26" TopLine="589"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="112" Column="25" TopLine="88"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="907" Column="42" TopLine="865"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="599" Column="45" TopLine="572"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="886" Column="8" TopLine="857"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="880" Column="49" TopLine="857"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeactivity.pas"/>
+        <Caret Line="239" Column="26" TopLine="217"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeactivity.pas"/>
+        <Caret Line="102" Column="16" TopLine="85"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="886" Column="44" TopLine="856"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\castle_game_engine\src\base\android\castleandroidnativeappglue.pas"/>
+        <Caret Line="703" Column="11" TopLine="680"/>
+      </Position12>
+      <Position13>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="16" Column="26"/>
+      </Position13>
+      <Position14>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="48" Column="23" TopLine="7"/>
+      </Position14>
+      <Position15>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="67" Column="18" TopLine="44"/>
+      </Position15>
+      <Position16>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="391" Column="14" TopLine="373"/>
+      </Position16>
+      <Position17>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="48" Column="23" TopLine="24"/>
+      </Position17>
+      <Position18>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="67" Column="18" TopLine="26"/>
+      </Position18>
+      <Position19>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="391" Column="19" TopLine="350"/>
+      </Position19>
+      <Position20>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="548" Column="17" TopLine="507"/>
+      </Position20>
+      <Position21>
+        <Filename Value="utekmain.pas"/>
+        <Caret Line="555" Column="18" TopLine="514"/>
+      </Position21>
+      <Position22>
+        <Filename Value="RUTINS.PAS"/>
+        <Caret Line="413" Column="21" TopLine="384"/>
+      </Position22>
+      <Position23>
+        <Filename Value="RUTINS.PAS"/>
+        <Caret Line="1719" Column="6" TopLine="1678"/>
+      </Position23>
+      <Position24>
+        <Filename Value="RUTINS.PAS"/>
+        <Caret Line="1741" TopLine="1700"/>
+      </Position24>
+      <Position25>
+        <Filename Value="RUTINS.PAS"/>
+      </Position25>
+      <Position26>
+        <Filename Value="RUTINS.PAS"/>
+        <Caret Line="43" Column="25" TopLine="2"/>
+      </Position26>
+      <Position27>
+        <Filename Value="UTEK.PAS"/>
+        <Caret Line="723" Column="11" TopLine="714"/>
+      </Position27>
+      <Position28>
+        <Filename Value="UTEK.PAS"/>
+        <Caret Line="746" Column="28" TopLine="714"/>
+      </Position28>
+      <Position29>
+        <Filename Value="UTEK.PAS"/>
+        <Caret Line="690" Column="45" TopLine="657"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="RUTINS.PAS"/>
+        <Line Value="155"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="RUTINS.PAS"/>
+        <Line Value="144"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="utekmain.pas"/>
+        <Line Value="379"/>
+      </Item3>
+    </BreakPoints>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="IMAGE"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

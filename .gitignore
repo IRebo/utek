@@ -4,7 +4,7 @@
 
 # Files for the Dalvik VM
 *.dex
-
+                                                                                 
 # Java class files
 *.class
 
@@ -25,3 +25,13 @@ proguard/
 
 # Log Files
 *.log
+
+#pascal
+*.bak
+*.exe
+*.~*
+*.obj
+*.tpu
+*.dcu
+*.old
+/lib
