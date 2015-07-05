@@ -656,6 +656,7 @@ logw('init3');
 initialization
   { This should be done as early as possible to mark our log lines correctly. }
   logw('init');
+
   OnGetApplicationName := @MyGetApplicationName;
 
   { initialize Application callbacks }

@@ -1,69 +1,3 @@
-{$IFDEF oldstuff}
-{$IFDEF android}
-library utekxp;
-
-{$mode objfpc}{$H+}
-
-uses
-   {$IFDEF android}
-cthreads,
-{$ENDIF}
-  customdrawnint,
-  Interfaces,
-  Forms,
-  customdrawn_android,
-  customdrawndrawers,
-  utekmain in 'utekmain.pas' {MainForm},
-    rutins in 'RUTINS.PAS', FakeDXDraw, assethelper;
-
-exports
-  Java_com_pascal_lclproject_LCLActivity_LCLOnTouch name 'Java_com_pascal_android_test_LCLActivity_LCLOnTouch',
-  Java_com_pascal_lclproject_LCLActivity_LCLDrawToBitmap name 'Java_com_pascal_android_test_LCLActivity_LCLDrawToBitmap',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnCreate name 'Java_com_pascal_android_test_LCLActivity_LCLOnCreate',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnMessageBoxFinished name 'Java_com_pascal_android_test_LCLActivity_LCLOnMessageBoxFinished',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnKey name 'Java_com_pascal_android_test_LCLActivity_LCLOnKey',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnTimer name 'Java_com_pascal_android_test_LCLActivity_LCLOnTimer',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnConfigurationChanged name 'Java_com_pascal_android_test_LCLActivity_LCLOnConfigurationChanged',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnSensorChanged name 'Java_com_pascal_android_test_LCLActivity_LCLOnSensorChanged',
-  Java_com_pascal_lclproject_LCLActivity_LCLOnMenuAction name 'Java_com_pascal_android_test_LCLActivity_LCLOnMenuAction',
-  JNI_OnLoad name 'JNI_OnLoad',
-  JNI_OnUnload name 'JNI_OnUnload';
-
-procedure MyActivityOnCreate;
-begin
-  DefaultStyle := dsAndroid;
-  Application.Initialize;
-  Application.CreateForm(TMainForm, MainForm);
-  Application.Run;
-end;
-
-begin
-  Application.Title:='utekxp';
-  CDWidgetset.ActivityClassName := 'com/pascal/utekxp/LCLActivity';
-  CDWidgetset.ActivityOnCreate := @MyActivityOnCreate;
-end.
-{$else}
-program utekxp;
-
-//{$MODE Delphi}
-{$mode objfpc}{$H+}
-uses
-  Forms, Interfaces,
-  utekmain in 'utekmain.pas' {MainForm},
-  rutins, FakeDXDraw, androidassethelper, normalassethelper, bitmap_control;
-
-{$R *.res}
-
-begin
-  Application.Title:='utekxp';
-  Application.Initialize;
-  Application.CreateForm(TMainForm, MainForm);
-  Application.Run;
-end.
-{$ENDIF}
-{$ENDIF}
-
-
 {$IFDEF android}
 library utekxp;
 
@@ -77,7 +11,7 @@ program utekxp;
 {$mode objfpc}{$H+}
 uses CastleWindow, utekmain;
 begin
-//  Application.Title:='utekxp';
+  mainform.FullScreen:=true;
   mainform.width:=320*3;
   mainform.Height:=200*3;
   mainform.OpenAndRun;

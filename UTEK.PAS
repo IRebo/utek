@@ -658,9 +658,9 @@ begin
  begin writeln;writeln('Ilegalna kopia !!!');halt(40);end;
 }end;
 
-{$i prezri.pas}
-{$i vezmi.pas}
-{$i pouzi.pas}
+{$i gamecode/prezri.pas}
+{$i gamecode/vezmi.pas}
+{$i gamecode/pouzi.pas}
 
 {--------------------------------Hlavny program------------------------------}
 procedure domain;

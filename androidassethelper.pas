@@ -49,7 +49,7 @@ procedure destroyassets;
 implementation
 
 uses strutils,  CastleAndroidAssetStream;
-function AAssetManager_fromJava(env: PJNIEnv;mgr: jobject): PAAssetManager; cdecl; external 'libandroid.so';
+'function AAssetManager_fromJava(env: PJNIEnv;mgr: jobject): PAAssetManager; cdecl; external 'libandroid.so';
 
 constructor TAndroidAssetHelper.create;
 begin
